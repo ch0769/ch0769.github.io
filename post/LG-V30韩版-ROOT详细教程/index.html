@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LG V30韩版 ROOT详细教程 | 飞雪无情的博客</title>
+    <meta property="og:title" content="LG V30韩版 ROOT详细教程 - 飞雪无情的博客">
+    <meta property="og:type" content="article">
+        
+        
+    <meta name="Keywords" content="golang,go语言,go语言笔记,飞雪无情,java,android,博客,项目管理,python,软件架构,公众号,小程序">
+    <meta name="description" content="LG V30韩版 ROOT详细教程">
+        
+    <meta name="author" content="飞雪无情">
+    <meta property="og:url" content="https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4031353640611810",
+        enable_page_level_ads: true
+    });
+    </script>
+    
+
+
+    
+    
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://www.flysnow.org">
+                        飞雪无情的博客
+                    </a>
+                
+                <p class="description">专注于Android、Java、Go语言(golang)、移动互联网、项目管理、软件架构</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://www.flysnow.org">首页</a>
+                    
+                    <a  href="https://www.flysnow.org/tools/" title="工具">工具</a>
+                    
+                    <a  href="https://www.flysnow.org/archives/" title="归档">归档</a>
+                    
+                    <a  href="https://www.flysnow.org/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装lg官方驱动">安装LG官方驱动</a></li>
+    <li><a href="#安装lgup刷机工具">安装LGUP刷机工具</a></li>
+    <li><a href="#安装谷歌驱动">安装谷歌驱动</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">LG V30韩版 ROOT详细教程</h1>
+        </header>
+        <date class="post-meta meta-date">
+            1年1月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA'>安卓手机</a></span>
+            
+            <span class="meta-category"><a href='https://www.flysnow.org/categories/LG-V30'>LG V30</a></span>
+            
+            <span class="meta-category"><a href='https://www.flysnow.org/categories/%E5%88%B7%E6%9C%BA'>刷机</a></span>
+            
+            <span class="meta-category"><a href='https://www.flysnow.org/categories/root'>root</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="clear" style="display: none">
+            <div class="toc-article">
+                <div class="toc-title">文章目录</div>
+            </div>
+        </div>
+        
+        <div class="post-content">
+            <p>#前言
+2019年最火的洋垃圾LG V30，骁龙835cpu（从此告别发烧），4G内存，64G储存，能满足日用生活，能玩游戏，2k屏幕，hifi，极高的性价比。</p>
+<!-- raw HTML omitted -->
+<h1 id="lg-v30韩版-root详细教程">LG V30韩版 ROOT详细教程</h1>
+<p>一个非常详细的视频教程，建议大家仔细观看，全部看懂了再来操作
+<a href="https://www.bilibili.com/video/av47071667">https://www.bilibili.com/video/av47071667</a>
+看视频刷机比较麻烦，我把视频整理成图文版的，包括命令这些，方便机友们刷机
+需要的工具视频下面的评论里面都有的，大家可以先去下载</p>
+<h1 id="准备工作">准备工作</h1>
+<h2 id="安装lg官方驱动">安装LG官方驱动</h2>
+<h2 id="安装lgup刷机工具">安装LGUP刷机工具</h2>
+<p>把下载的modle和LGUP覆盖到安卓目录</p>
+<h2 id="安装谷歌驱动">安装谷歌驱动</h2>
+<p>首先下载并打开此ADB工具箱http://pan.baidu.com/s/1nuHwTcP
+在弹出的窗口中输入y并按回车，依次重复操作3 次</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223193123.png" alt=""></p>
+<h1 id="混刷-h930的kdz">混刷 h930的kdz</h1>
+<p>手机拔掉sim卡，断开wifi，退出google账户，设置，常规，关于手机，软件信息，连续点击内部版本号开启开发人员选项。
+进入开发人员选项，点击启用OEM解锁，和USB调试，手机关机。关机后，按住音量+，插入已经连接电脑的USB线，手机会进入download 刷机模式
+右键点击LGUP软件，选择以管理员身份运行，</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223132526.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223132704.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223132846.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223132942.png" alt=""></p>
+<p>刷完之后会卡LOGO</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223133059.png" alt=""></p>
+<p>按住音量减和电源键 8秒以上，会闪屏一下，当LOGO出现后，立刻松开，再重新按住关机键，直到出现data peset界面，才松开。用音量键选择YES，按电源键 进入恢复出厂设置</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223133708.png" alt=""></p>
+<p>开始硬格手机，格式完毕后，就可以进入系统，手机开机没有基带的，不能使用SIM卡，</p>
+<h1 id="解锁bootloader">解锁BootLoader</h1>
+<p>按照前面的教程打开设置进入开发者模式，启用OEM解锁，和USB调试，usb调成照片传输模式</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223134217.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223134343.png" alt=""></p>
+<p>LG V30工具包里有命令的，我还是把命令贴这里，方便一些
+输入命令
+adb devices
+勾选手机始终运行在此计算机上进行操作，点确定
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223160120.png" alt=""></p>
+<p>adb reboot bootloader
+&mdash;&ndash;进入了fastboot&mdash;&ndash;
+fastboot flash unlock unlock.bin</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223160511.png" alt=""></p>
+<p>fastboot reboot
+&mdash;&ndash;解锁了BL并重启了手机&mdash;&ndash;
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223160704.png" alt=""></p>
+<p>手机开机后，按照前面的教程打开设置进入开发者模式，启用OEM解锁，和USB调试，usb调成照片传输模式</p>
+<p>输入
+adb devices
+adb reboot bootloader
+fastboot getvar unlocked
+出现 yes  就是解锁成功了。
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223161325.png" alt=""></p>
+<p>&mdash;-进入fastboot以查看是否解锁&mdash;&ndash;</p>
+<h1 id="root备份欧版recovery">root，备份欧版recovery</h1>
+<p>fastboot boot TWRP.img
+临时进入twrp，可以手机操作切换到中文
+格式化分区
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223161714.png" alt="">
+会出现红字 不用理</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223161820.png" alt=""></p>
+<p>再清除 cache</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223162004.png" alt="">
+也会出现红字，点击返回，点击重启bootloader</p>
+<p>fastboot boot TWRP.img
+再次进入twrp，电脑上可以显示手机存储了。把拷贝内存文件夹里面的三个文件复制粘贴到手机里面
+依次刷入这三个文件，顺序不能乱，这次刷入没有出现红字。
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223162654.png" alt=""></p>
+<p>接着备份欧版官方的recocery</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223162928.png" alt=""></p>
+<p>备份好后，复制到电脑，重启手机到bootloader
+输入
+fastboot flash recovery TWRP.img
+再次输入
+fastboot boot TWRP.img
+电脑上就可以看到手机储存了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223163401.png" alt="">
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223163523.png" alt=""></p>
+<p>把里面的twrp文件夹复制到电脑，然后手机关机</p>
+<h1 id="刷回韩版系统">刷回韩版系统</h1>
+<p>关机状态下，按住音量加 插入USB，就会进入刷机模式
+右键点击LGUP，以管理员身份运行。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223163954.png" alt=""></p>
+<p>刷韩版的kdz系统
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223164216.png" alt=""></p>
+<p>选分区的时候排除recovery，recoverybak两个分区，也就是不刷入官方recovery，因为韩版系统即使解锁bootloader也无法进入fastboot，也就无法刷入TWRP</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223164329.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223164450.png" alt=""></p>
+<p>刷完，一般会进入TWRP，如果没有进去，就要从 混刷 h930的kdz 开始重新刷</p>
+<p>刷完韩版系统，进入TWRP后
+格式化data，再清除 cache，依次刷入
+1_Magisk-v16.0
+2_no-verity-opt-encrypt-6.0
+3_lg-rctd-disabler-1.0(1)adb shell
+刷完后把之前备份复制到电脑的欧版recocery，（带备份日期和时间的这个文件夹）复制到手机，从TWRP恢复。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223174444.png" alt=""></p>
+<p>恢复之后关机再开机，一般可以正常进系统，如果等10分钟还不能开机，就要重新执行工厂格式化开机</p>
+<p>按住音量减和电源键 8秒以上，会闪屏一下，当LOGO出现后，立刻松开，再重新按住关机键，直到出现data peset界面，才松开。用音量键选择YES，按电源键 进入恢复出厂设置
+按照前面的教程，并引用了之前的图片
+<img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223133708.png" alt=""></p>
+<p>开始硬格手机，格式完毕后，就可以进入系统
+现在的系统状态是已解锁BL锁，有root权限
+把TWEP.img文件复制到手机储存
+打开开发者模式，开启adb调试
+输入下面的命令
+adb shell
+su</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223175719.png" alt=""></p>
+<p>手机点允许</p>
+<p>dd if=/sdcard/TWRP.img of=/dev/block/bootdevice/by-name/recovery</p>
+<h1 id="教程补充">教程补充</h1>
+<p>刷机前可以先备份基带再刷机</p>
+<p>手机进入刷机模式（完全关机按住音量+插入数据线连接电脑）</p>
+<p>右键管理员打开桌面“LG UP”。</p>
+<p>先备份基带（备份xbl xbl2 modem分区） （机锋论坛浪大教程）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223185115.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/waimao8/image@master/20191223185236.png" alt=""></p>
+<p>以后要升级系统，可以从刷回韩版教程开始刷</p>
+<p>在ADB和Fastboot工具的文件夹中，按住shift并右击空白处，选择“在此处打开Powershell窗口”（旧版Windows为命令提示符）
+界面不同，但命令无区别）,进入命令行窗口。</p>
+<h1 id="机锋精品教程">机锋精品教程</h1>
+<p>LG V30韩版解锁Bootloader+TWRP+韩版系统+root详细教程&amp;资源  （非常详细的刷机教程）
+<a href="http://bbs.gfan.com/android-9493762-1-4.html">http://bbs.gfan.com/android-9493762-1-4.html</a></p>
+<p>LG V30官方KDZ混刷教程
+<a href="http://bbs.gfan.com/android-9313407-1-1.html">http://bbs.gfan.com/android-9313407-1-1.html</a></p>
+<p>LG V30解BL 安装TWRP及root详细教程
+ttp://bbs.gfan.com/android-9313266-1-1.html</p>
+<p>韩版刷机说明..防砖.刷第三方
+<a href="http://bbs.gfan.com/android-9561523-1-1.html">http://bbs.gfan.com/android-9561523-1-1.html</a></p>
+<p>韩版v300l，解锁+root+原生系统教程之五大步（补充）
+<a href="http://bbs.gfan.com/android-9506755-1-1.html">http://bbs.gfan.com/android-9506755-1-1.html</a></p>
+<p>LG V30目前可以通刷的版本说明
+<a href="http://bbs.gfan.com/android-9310017-1-3.html">http://bbs.gfan.com/android-9310017-1-3.html</a></p>
+<p>【PIE+Volte】韩版移动电信成功开启Volte更新详细教程
+<a href="http://bbs.gfan.com/android-9618911-1-3.html">http://bbs.gfan.com/android-9618911-1-3.html</a></p>
+<p>韩版用户折腾经验分享
+<a href="http://bbs.gfan.com/android-9492238-1-6.html">http://bbs.gfan.com/android-9492238-1-6.html</a></p>
+<p>俄罗斯论坛LG V30刷机固件下载
+<a href="http://4pda.ru/forum/index.php?showtopic=902834">http://4pda.ru/forum/index.php?showtopic=902834</a></p>
+<p>看下载量 Dot OS 这个不错 也是官方的，比较稳定，其他rom应该也不错的。
+8.1
+<a href="https://forum.xda-developers.com/lg-v30/development/rom-dotos-v2-2-t37984419.0">https://forum.xda-developers.com/lg-v30/development/rom-dotos-v2-2-t37984419.0</a></p>
+<p>9.0
+<a href="https://forum.xda-developers.com/lg-v30/development/rom-pie-dot-os-3-0-t3908490">https://forum.xda-developers.com/lg-v30/development/rom-pie-dot-os-3-0-t3908490</a></p>
+<p>LG-US998 20D ROM 常用底包 里面有解锁的相关链接
+<a href="https://forum.xda-developers.com/lg-v30/development/rom-lg-us998-20d-rom-t3830318">https://forum.xda-developers.com/lg-v30/development/rom-lg-us998-20d-rom-t3830318</a></p>
+
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>原文作者：</strong><a rel="author" href="https://www.flysnow.org">飞雪无情</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/">https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</a></li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/">解决安卓手机卡顿 安装google商店官方软件的方法</a></li>
+        
+        <li><a href="/post/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%BB%99%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5twrp-recovery%E6%95%99%E7%A8%8B/">黑苹果给安卓手机刷入twrp recovery教程</a></li>
+        
+        <li><a href="/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/">图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.</a></li>
+        
+        <li><a href="/post/%E5%B0%8F%E7%99%BD%E7%94%B5%E8%84%91%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9Flinxu%E5%92%8C%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%9A%84%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/">小白电脑安装windows系统，linxu和黑苹果的相关资料</a></li>
+        
+        <li><a href="/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/">支付宝通过三星健康修改步数的教程和注意事项</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='https://www.flysnow.org/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA'>安卓手机</a></li>
+                
+                <li><a href='https://www.flysnow.org/tags/LG-V30'>LG V30</a></li>
+                
+                <li><a href='https://www.flysnow.org/tags/%E5%88%B7%E6%9C%BA'>刷机</a></li>
+                
+                <li><a href='https://www.flysnow.org/tags/root'>root</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "your github repo"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+</div>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://www.flysnow.org/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://www.flysnow.org">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/" title="LG V30韩版 ROOT详细教程">LG V30韩版 ROOT详细教程</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/" title="图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.">图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E5%B0%8F%E7%99%BD%E7%94%B5%E8%84%91%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9Flinxu%E5%92%8C%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%9A%84%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/" title="小白电脑安装windows系统，linxu和黑苹果的相关资料">小白电脑安装windows系统，linxu和黑苹果的相关资料</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" title="支付宝通过三星健康修改步数的教程和注意事项">支付宝通过三星健康修改步数的教程和注意事项</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/" title="斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座">斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1%E5%AE%89Armbian%E5%AE%89%E8%A3%85OMV%E5%AE%89%E8%A3%85nginx&#43;mysql%E5%AE%89%E8%A3%85typecho%E5%85%A8%E8%BF%87%E7%A8%8B/" title="斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程">斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/" title="解决安卓手机卡顿 安装google商店官方软件的方法">解决安卓手机卡顿 安装google商店官方软件的方法</a>
+    </li>
+    
+    <li>
+        <a href="https://www.flysnow.org/post/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%BB%99%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5twrp-recovery%E6%95%99%E7%A8%8B/" title="黑苹果给安卓手机刷入twrp recovery教程">黑苹果给安卓手机刷入twrp recovery教程</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title" style="color:red">福利派送</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a href="https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&amp;share_source=copy_link" title="【2019双12】ALL IN CLoud 低至1折" target="_blank" style="color:red">
+                
+                    <img src="https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg">
+                
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://cloud.tencent.com/act/cps/redirect?redirect=1048&amp;cps_key=14ff722692ac784fa8c3301c8c28d924&amp;from=console" title="助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！" target="_blank" style="color:red">
+                
+                    <img src="https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg">
+                
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97" title="【渠道专享低折扣】11月特惠 限时2折" target="_blank" style="color:red">
+                
+                    <img src="https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg">
+                
+            </a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">分类</h3>
+<ul class="widget-list">
+    
+    <li><a href="https://www.flysnow.org/categories/APK-Downloader/">APK Downloader (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/Github/">Github (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/Jsdelivr/">Jsdelivr (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/LG-V30/">LG V30 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/PE/">PE (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/PicGo/">PicGo (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/cheome%E6%8F%92%E4%BB%B6/">cheome插件 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/edxposed/">edxposed (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/hexo/">hexo (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/linux/">linux (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/lnmp/">lnmp (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/mac/">mac (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/mysql/">mysql (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/nginx/">nginx (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/omv/">omv (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/recovery/">recovery (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/root/">root (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/twrp/">twrp (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/typecho/">typecho (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/xposed/">xposed (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7/">三星健康 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E5%88%B7%E6%9C%BA/">刷机 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/">安卓手机 (3)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/">安卓软件 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/">支付宝运动 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E6%96%90%E8%AE%AFN1/">斐讯N1 (2)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E7%94%B5%E8%84%91%E7%B3%BB%E7%BB%9F/">电脑系统 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/">电脑软件 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E9%A9%B1%E5%8A%A8/">驱动 (1)</a></li>
+    
+    <li><a href="https://www.flysnow.org/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/">黑苹果 (2)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title">标签</h3>
+<div class="tagcloud">
+    
+    <a href="https://www.flysnow.org/tags/APK-Downloader/">APK Downloader</a>
+    
+    <a href="https://www.flysnow.org/tags/Github/">Github</a>
+    
+    <a href="https://www.flysnow.org/tags/Jsdelivr/">Jsdelivr</a>
+    
+    <a href="https://www.flysnow.org/tags/LG-V30/">LG V30</a>
+    
+    <a href="https://www.flysnow.org/tags/PE/">PE</a>
+    
+    <a href="https://www.flysnow.org/tags/PicGo/">PicGo</a>
+    
+    <a href="https://www.flysnow.org/tags/cheome%E6%8F%92%E4%BB%B6/">cheome插件</a>
+    
+    <a href="https://www.flysnow.org/tags/docker/">docker</a>
+    
+    <a href="https://www.flysnow.org/tags/edxposed/">edxposed</a>
+    
+    <a href="https://www.flysnow.org/tags/hexo/">hexo</a>
+    
+    <a href="https://www.flysnow.org/tags/homeassistant/">homeassistant</a>
+    
+    <a href="https://www.flysnow.org/tags/linux/">linux</a>
+    
+    <a href="https://www.flysnow.org/tags/lnmp/">lnmp</a>
+    
+    <a href="https://www.flysnow.org/tags/mac/">mac</a>
+    
+    <a href="https://www.flysnow.org/tags/mysql/">mysql</a>
+    
+    <a href="https://www.flysnow.org/tags/nginx/">nginx</a>
+    
+    <a href="https://www.flysnow.org/tags/omv/">omv</a>
+    
+    <a href="https://www.flysnow.org/tags/recovery/">recovery</a>
+    
+    <a href="https://www.flysnow.org/tags/root/">root</a>
+    
+    <a href="https://www.flysnow.org/tags/twrp/">twrp</a>
+    
+    <a href="https://www.flysnow.org/tags/typecho/">typecho</a>
+    
+    <a href="https://www.flysnow.org/tags/xposed/">xposed</a>
+    
+    <a href="https://www.flysnow.org/tags/%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7/">三星健康</a>
+    
+    <a href="https://www.flysnow.org/tags/%E5%88%B7%E6%9C%BA/">刷机</a>
+    
+    <a href="https://www.flysnow.org/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/">安卓手机</a>
+    
+    <a href="https://www.flysnow.org/tags/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/">安卓软件</a>
+    
+    <a href="https://www.flysnow.org/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/">支付宝运动</a>
+    
+    <a href="https://www.flysnow.org/tags/%E6%96%90%E8%AE%AFDC1/">斐讯DC1</a>
+    
+    <a href="https://www.flysnow.org/tags/%E6%96%90%E8%AE%AFN1/">斐讯N1</a>
+    
+    <a href="https://www.flysnow.org/tags/%E7%94%B5%E8%84%91%E7%B3%BB%E7%BB%9F/">电脑系统</a>
+    
+    <a href="https://www.flysnow.org/tags/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/">电脑软件</a>
+    
+    <a href="https://www.flysnow.org/tags/%E9%A9%B1%E5%8A%A8/">驱动</a>
+    
+    <a href="https://www.flysnow.org/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/">黑苹果</a>
+    
+</div>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="https://www.flysnow.org/" title="飞雪无情的博客">飞雪无情的博客</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e" title="Android Gradle权威指南">Android Gradle权威指南</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="https://www.flysnow.org/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container">
+        &copy; 2020 <a href="https://www.flysnow.org">飞雪无情的博客 By 飞雪无情</a>.
+        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
+        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/flysnow-org/maupassant-hugo" target="_blank">maupassant</a>.
+        
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+</body>
+
+</html>

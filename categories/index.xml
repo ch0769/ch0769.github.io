@@ -2,146 +2,281 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 飞雪无情的博客</title>
-    <link>ch0769.github.io/categories/</link>
+    <link>https://www.flysnow.org/categories/</link>
     <description>Recent content in Categories on 飞雪无情的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     
-	<atom:link href="ch0769.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.flysnow.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>edxposed</title>
-      <link>ch0769.github.io/categories/edxposed/</link>
+      <title>APK Downloader</title>
+      <link>https://www.flysnow.org/categories/APK-Downloader/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/edxposed/</guid>
+      <guid>https://www.flysnow.org/categories/APK-Downloader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cheome插件</title>
+      <link>https://www.flysnow.org/categories/cheome%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/cheome%E6%8F%92%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edxposed</title>
+      <link>https://www.flysnow.org/categories/edxposed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/edxposed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>ch0769.github.io/categories/Github/</link>
+      <link>https://www.flysnow.org/categories/Github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/Github/</guid>
+      <guid>https://www.flysnow.org/categories/Github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hexo</title>
-      <link>ch0769.github.io/categories/hexo/</link>
+      <link>https://www.flysnow.org/categories/hexo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/hexo/</guid>
+      <guid>https://www.flysnow.org/categories/hexo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jsdelivr</title>
-      <link>ch0769.github.io/categories/Jsdelivr/</link>
+      <link>https://www.flysnow.org/categories/Jsdelivr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/Jsdelivr/</guid>
+      <guid>https://www.flysnow.org/categories/Jsdelivr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LG V30</title>
+      <link>https://www.flysnow.org/categories/LG-V30/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/LG-V30/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>ch0769.github.io/categories/linux/</link>
+      <link>https://www.flysnow.org/categories/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/linux/</guid>
+      <guid>https://www.flysnow.org/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lnmp</title>
+      <link>https://www.flysnow.org/categories/lnmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/lnmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mac</title>
-      <link>ch0769.github.io/categories/mac/</link>
+      <link>https://www.flysnow.org/categories/mac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/mac/</guid>
+      <guid>https://www.flysnow.org/categories/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://www.flysnow.org/categories/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://www.flysnow.org/categories/nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>omv</title>
+      <link>https://www.flysnow.org/categories/omv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/omv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PE</title>
-      <link>ch0769.github.io/categories/PE/</link>
+      <link>https://www.flysnow.org/categories/PE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/PE/</guid>
+      <guid>https://www.flysnow.org/categories/PE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PicGo</title>
-      <link>ch0769.github.io/categories/PicGo/</link>
+      <link>https://www.flysnow.org/categories/PicGo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/PicGo/</guid>
+      <guid>https://www.flysnow.org/categories/PicGo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recovery</title>
+      <link>https://www.flysnow.org/categories/recovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>root</title>
+      <link>https://www.flysnow.org/categories/root/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/root/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twrp</title>
+      <link>https://www.flysnow.org/categories/twrp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/twrp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typecho</title>
+      <link>https://www.flysnow.org/categories/typecho/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/typecho/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xposed</title>
-      <link>ch0769.github.io/categories/xposed/</link>
+      <link>https://www.flysnow.org/categories/xposed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/xposed/</guid>
+      <guid>https://www.flysnow.org/categories/xposed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>三星健康</title>
-      <link>ch0769.github.io/categories/%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7/</link>
+      <link>https://www.flysnow.org/categories/%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7/</guid>
+      <guid>https://www.flysnow.org/categories/%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刷机</title>
+      <link>https://www.flysnow.org/categories/%E5%88%B7%E6%9C%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/%E5%88%B7%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>安卓手机</title>
+      <link>https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>安卓软件</title>
+      <link>https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>支付宝运动</title>
-      <link>ch0769.github.io/categories/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/</link>
+      <link>https://www.flysnow.org/categories/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/</guid>
+      <guid>https://www.flysnow.org/categories/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>斐讯N1</title>
+      <link>https://www.flysnow.org/categories/%E6%96%90%E8%AE%AFN1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/categories/%E6%96%90%E8%AE%AFN1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>电脑系统</title>
-      <link>ch0769.github.io/categories/%E7%94%B5%E8%84%91%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://www.flysnow.org/categories/%E7%94%B5%E8%84%91%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/%E7%94%B5%E8%84%91%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://www.flysnow.org/categories/%E7%94%B5%E8%84%91%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>电脑软件</title>
-      <link>ch0769.github.io/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
+      <link>https://www.flysnow.org/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
+      <guid>https://www.flysnow.org/categories/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>驱动</title>
-      <link>ch0769.github.io/categories/%E9%A9%B1%E5%8A%A8/</link>
+      <link>https://www.flysnow.org/categories/%E9%A9%B1%E5%8A%A8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/%E9%A9%B1%E5%8A%A8/</guid>
+      <guid>https://www.flysnow.org/categories/%E9%A9%B1%E5%8A%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>黑苹果</title>
-      <link>ch0769.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</link>
+      <link>https://www.flysnow.org/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>ch0769.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</guid>
+      <guid>https://www.flysnow.org/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</guid>
       <description></description>
     </item>
     

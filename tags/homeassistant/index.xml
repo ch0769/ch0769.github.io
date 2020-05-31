@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>homeassistant on 飞雪无情的博客</title>
+    <link>https://www.flysnow.org/tags/homeassistant/</link>
+    <description>Recent content in homeassistant on 飞雪无情的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://www.flysnow.org/tags/homeassistant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座</title>
+      <link>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/</guid>
+      <description>斐讯N1 docker安装homeassistant 配置斐讯dc1智能插座 默认代码 docker run -d --restart=always --name=&amp;quot;home-assistant&amp;quot; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config -p 8123:8123 -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/aarch64-homeassistant:latest homeassistant:latest表示最新版的 用0.88.1顺手了，配置文件也有了，就不想安装最新版本的了。新版也试用过，不太好用 刚开始用的代码是 docker run -d --restart=always --name=&amp;quot;home-assistant&amp;quot; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config</description>
+    </item>
+    
+  </channel>
+</rss>
