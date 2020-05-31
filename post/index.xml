@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>N1安装omv后安装docker&#43;transmission&#43;lnmp搭建网站</title>
+      <link>https://www.flysnow.org/post/N1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/post/N1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</guid>
+      <description>N1安装好omv后， 进入系统，常规设置，修改web管理员密码，需要安装的lnmp搭建网站的话，还需要修改端口，自动登出时间可以设置为1天。 进入磁盘，文件管理，挂着ext4格式的U盘或者硬盘（其他格式的不能修改权限比如777 755等） 进入共享文件夹，设置共享，设置ftp nfs smb 等 进入o</description>
+    </item>
+    
+    <item>
+      <title>Nexus 5X手机在支付宝的蚂蚁森林自动收能量的过程.</title>
+      <link>https://www.flysnow.org/post/Nexus-5X%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/post/Nexus-5X%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</guid>
+      <description>下载刷机包 https://downloads.aospextended.com/bullhead 个人觉得aospextended的rom比较省电，其他刷机包或者不刷机也是可以的，只要是手机不能杀支付宝的后台就行，如果需要用都省电模式，要在省电模式里面排除支付宝。 下载twrp https://twrp.me/lg/lgnexus5x.html 下载magisk 下载MagiskManager-v7.4.0.apk 下载Magisk-v</description>
+    </item>
+    
+    <item>
       <title>图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.</title>
       <link>https://www.flysnow.org/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,15 +62,6 @@
       
       <guid>https://www.flysnow.org/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</guid>
       <description>支付宝通过三星健康修改步数的教程和注意事项 全部软件下载地址（担心以后新版的支付宝不能同步，所以在网盘也放了最近的三个支付宝，酷安下载的） https://www.lanzous.com/b059xem4d 安卓8，安卓9，安卓10安装edxposed 下载MagiskManager-v7.4.0.apk 下载Magisk-v20.1.zip 下载应用变</description>
-    </item>
-    
-    <item>
-      <title>斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座</title>
-      <link>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/</guid>
-      <description>斐讯N1 docker安装homeassistant 配置斐讯dc1智能插座 默认代码 docker run -d --restart=always --name=&amp;quot;home-assistant&amp;quot; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config -p 8123:8123 -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/aarch64-homeassistant:latest homeassistant:latest表示最新版的 用0.88.1顺手了，配置文件也有了，就不想安装最新版本的了。新版也试用过，不太好用 刚开始用的代码是 docker run -d --restart=always --name=&amp;quot;home-assistant&amp;quot; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config</description>
     </item>
     
     <item>

@@ -11,12 +11,12 @@
     
     
     <item>
-      <title>斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座</title>
-      <link>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/</link>
+      <title>N1安装omv后安装docker&#43;transmission&#43;lnmp搭建网站</title>
+      <link>https://www.flysnow.org/post/N1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1-docker%E5%AE%89%E8%A3%85homeassistant-%E9%85%8D%E7%BD%AE%E6%96%90%E8%AE%AFdc1%E6%99%BA%E8%83%BD%E6%8F%92%E5%BA%A7/</guid>
-      <description>斐讯N1 docker安装homeassistant 配置斐讯dc1智能插座 默认代码 docker run -d --restart=always --name=&amp;quot;home-assistant&amp;quot; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config -p 8123:8123 -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/aarch64-homeassistant:latest homeassistant:latest表示最新版的 用0.88.1顺手了，配置文件也有了，就不想安装最新版本的了。新版也试用过，不太好用 刚开始用的代码是 docker run -d --restart=always --name=&amp;quot;home-assistant&amp;quot; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config</description>
+      <guid>https://www.flysnow.org/post/N1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</guid>
+      <description>N1安装好omv后， 进入系统，常规设置，修改web管理员密码，需要安装的lnmp搭建网站的话，还需要修改端口，自动登出时间可以设置为1天。 进入磁盘，文件管理，挂着ext4格式的U盘或者硬盘（其他格式的不能修改权限比如777 755等） 进入共享文件夹，设置共享，设置ftp nfs smb 等 进入o</description>
     </item>
     
     <item>

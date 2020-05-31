@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>N1安装omv后安装docker&#43;transmission&#43;lnmp搭建网站</title>
+      <link>https://www.flysnow.org/post/N1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.flysnow.org/post/N1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</guid>
+      <description>N1安装好omv后， 进入系统，常规设置，修改web管理员密码，需要安装的lnmp搭建网站的话，还需要修改端口，自动登出时间可以设置为1天。 进入磁盘，文件管理，挂着ext4格式的U盘或者硬盘（其他格式的不能修改权限比如777 755等） 进入共享文件夹，设置共享，设置ftp nfs smb 等 进入o</description>
+    </item>
+    
+    <item>
       <title>斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</title>
       <link>https://www.flysnow.org/post/%E6%96%90%E8%AE%AFN1%E5%AE%89Armbian%E5%AE%89%E8%A3%85OMV%E5%AE%89%E8%A3%85nginx&#43;mysql%E5%AE%89%E8%A3%85typecho%E5%85%A8%E8%BF%87%E7%A8%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
