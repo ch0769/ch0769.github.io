@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xposed on 飞雪无情的博客</title>
+    <link>ch0769.github.io/tags/xposed/</link>
+    <description>Recent content in xposed on 飞雪无情的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="ch0769.github.io/tags/xposed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>支付宝通过三星健康修改步数的教程和注意事项</title>
+      <link>ch0769.github.io/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>ch0769.github.io/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</guid>
+      <description>支付宝通过三星健康修改步数的教程和注意事项 全部软件下载地址（担心以后新版的支付宝不能同步，所以在网盘也放了最近的三个支付宝，酷安下载的） https://www.lanzous.com/b059xem4d 安卓8，安卓9，安卓10安装edxposed 下载MagiskManager-v7.4.0.apk 下载Magisk-v20.1.zip 下载应用变</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 飞雪无情的博客</title>
+    <link>ch0769.github.io/post/</link>
+    <description>Recent content in Posts on 飞雪无情的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 31 May 2020 23:58:27 +0800</lastBuildDate>
+    
+	<atom:link href="ch0769.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo搭建教程</title>
+      <link>ch0769.github.io/post/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 31 May 2020 23:58:27 +0800</pubDate>
+      
+      <guid>ch0769.github.io/post/hugo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.</title>
+      <link>ch0769.github.io/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>ch0769.github.io/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/</guid>
+      <description>图床搭建的最佳选择 PicGo + Github + Jsdelivr免费公用CDN加速 Github创建仓库 点击 New repository 创建好后，获取Token 这个Token只出现一次的，一定要记得复制好，pico设置要用到的 下载picgo https://github.com/Molunerfinn/PicGo/releases 我使用的是黑苹果，下载PicGo-2.1.2.dmg 安装好后，在屏幕右上角会有一个标志</description>
+    </item>
+    
+    <item>
+      <title>小白电脑安装windows系统，linxu和黑苹果的相关资料</title>
+      <link>ch0769.github.io/post/%E5%B0%8F%E7%99%BD%E7%94%B5%E8%84%91%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9Flinxu%E5%92%8C%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%9A%84%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>ch0769.github.io/post/%E5%B0%8F%E7%99%BD%E7%94%B5%E8%84%91%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9Flinxu%E5%92%8C%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%9A%84%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</guid>
+      <description>电脑安装系统必备 操作系统下载 官方系统 http://msdn.itellyou.cn/ https://tb.rg-adguard.net/public.php 第三方系统 http://twm000.top/ http://www.uqi.me/ https://icura.cn/ PE http://www.wepe.com.cn/ https://www.itsk.com/topic-software.html http://www.myfeng.cn/ 驱动 https://www.sysceo.com/ https://www.160.com/ http://www.drivergenius.com/ http://weishi.360.cn/qudongdashi/index.html https://www.ludashi.com/ 系统激活 http://twm000.ys168.com/ 精品软件下载 https://www.landiannews.com/ https://www.appcgn.com/ https://www.repaik.com/ http://www.carrotchou.blog/ https://www.ccava.net/ https://www.luochenzhimu.com/ https://hrtsea.com/ 国产杀毒推荐 https://www.huorong.cn/ https://www.wisevector.com/ 杀毒论坛推荐 https://bbs.kafan.cn/ 黑苹果教程网站 http://bbs.pcbeta.com/ https://blog.daliansky.net/ https://www.tonymacx86.com/ http://www.insanelymac.com/ https://osxlatitude.com/ mac软件下载 http://www.pc6.com/mac/soft/ https://www.macbl.com/ https://www.macdo.cn/ linxu https://www.deepin.org/ https://ubuntu.com/download https://www.debian.org https://www.manjaro.cn/153 https://bbs.archlinuxcn.org/ https://lubuntu.net/ https://elementaryos.cn/</description>
+    </item>
+    
+    <item>
+      <title>支付宝通过三星健康修改步数的教程和注意事项</title>
+      <link>ch0769.github.io/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>ch0769.github.io/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</guid>
+      <description>支付宝通过三星健康修改步数的教程和注意事项 全部软件下载地址（担心以后新版的支付宝不能同步，所以在网盘也放了最近的三个支付宝，酷安下载的） https://www.lanzous.com/b059xem4d 安卓8，安卓9，安卓10安装edxposed 下载MagiskManager-v7.4.0.apk 下载Magisk-v20.1.zip 下载应用变</description>
+    </item>
+    
+  </channel>
+</rss>
