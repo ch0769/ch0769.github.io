@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cheome插件 on 飞雪无情的博客</title>
-    <link>https://www.flysnow.org/categories/cheome%E6%8F%92%E4%BB%B6/</link>
-    <description>Recent content in cheome插件 on 飞雪无情的博客</description>
+    <title>cheome插件 on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/categories/cheome%E6%8F%92%E4%BB%B6/</link>
+    <description>Recent content in cheome插件 on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>en</language>
     
-	<atom:link href="https://www.flysnow.org/categories/cheome%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/cheome%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>解决安卓手机卡顿 安装google商店官方软件的方法</title>
-      <link>https://www.flysnow.org/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://localhost:1313/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>下载play.google.com商店软件的方法 国内安卓软件多数都是比较流氓，内存占用大，弹广告，要想手机流畅运行，建议尽量使用google商店下载的软件。 下面提到的所以资源可以到蓝奏云网盘下载，无广告，速度飞快 https://www.lanzous.com/b059xemze 下载国际版安卓软件最简单的方法 下载setupvpn_4.6.2.a</description>
+      <guid>http://localhost:1313/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>下载play.google.com商店软件的方法 国内安卓软件多数都是比较流氓，内存占用大，弹广告，要想手机流畅运行，建议尽量使用google</description>
     </item>
     
   </channel>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hexo on 飞雪无情的博客</title>
-    <link>https://www.flysnow.org/tags/hexo/</link>
-    <description>Recent content in hexo on 飞雪无情的博客</description>
+    <title>hexo on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/hexo/</link>
+    <description>Recent content in hexo on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>en</language>
     
-	<atom:link href="https://www.flysnow.org/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.</title>
-      <link>https://www.flysnow.org/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/</link>
+      <link>http://localhost:1313/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-picgo-&#43;-github-&#43;-jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8cdn%E5%8A%A0%E9%80%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-PicGo-&#43;-Github-&#43;-Jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8CDN%E5%8A%A0%E9%80%9F/</guid>
-      <description>图床搭建的最佳选择 PicGo + Github + Jsdelivr免费公用CDN加速 Github创建仓库 点击 New repository 创建好后，获取Token 这个Token只出现一次的，一定要记得复制好，pico设置要用到的 下载picgo https://github.com/Molunerfinn/PicGo/releases 我使用的是黑苹果，下载PicGo-2.1.2.dmg 安装好后，在屏幕右上角会有一个标志</description>
+      <guid>http://localhost:1313/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-picgo-&#43;-github-&#43;-jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8cdn%E5%8A%A0%E9%80%9F/</guid>
+      <description>图床搭建的最佳选择 PicGo + Github + Jsdelivr免费公用CDN加速 Github创建仓库 点击 New repository 创建好后，获取Token 这个Token只出现一次的，</description>
     </item>
     
   </channel>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LG V30 on 飞雪无情的博客</title>
-    <link>https://www.flysnow.org/tags/LG-V30/</link>
-    <description>Recent content in LG V30 on 飞雪无情的博客</description>
+    <title>LG V30 on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/lg-v30/</link>
+    <description>Recent content in LG V30 on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>en</language>
     
-	<atom:link href="https://www.flysnow.org/tags/LG-V30/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/lg-v30/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LG V30韩版 ROOT详细教程</title>
-      <link>https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
+      <link>http://localhost:1313/post/lg-v30%E9%9F%A9%E7%89%88-root%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
-      <description>#前言 2019年最火的洋垃圾LG V30，骁龙835cpu（从此告别发烧），4G内存，64G储存，能满足日用生活，能玩游戏，2k屏幕，hifi，极高的性价比。 LG V30韩版 ROOT详细教程 一个非常详细的视频教程，建议大家仔细观看，全部看懂了再来操作 https://www.bilibili.com/video/av47071667 看视频刷机比较麻烦，我把视频整理成</description>
+      <guid>http://localhost:1313/post/lg-v30%E9%9F%A9%E7%89%88-root%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
+      <description>#前言 2019年最火的洋垃圾LG V30，骁龙835cpu（从此告别发烧），4G内存，64G储存，能满足日用生活，能玩游戏，2k屏幕，hifi</description>
     </item>
     
   </channel>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>安卓手机 on 飞雪无情的博客</title>
-    <link>https://www.flysnow.org/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/</link>
-    <description>Recent content in 安卓手机 on 飞雪无情的博客</description>
+    <title>安卓手机 on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/</link>
+    <description>Recent content in 安卓手机 on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>en</language>
     
-	<atom:link href="https://www.flysnow.org/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LG V30韩版 ROOT详细教程</title>
-      <link>https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
+      <link>http://localhost:1313/post/lg-v30%E9%9F%A9%E7%89%88-root%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/LG-V30%E9%9F%A9%E7%89%88-ROOT%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
-      <description>#前言 2019年最火的洋垃圾LG V30，骁龙835cpu（从此告别发烧），4G内存，64G储存，能满足日用生活，能玩游戏，2k屏幕，hifi，极高的性价比。 LG V30韩版 ROOT详细教程 一个非常详细的视频教程，建议大家仔细观看，全部看懂了再来操作 https://www.bilibili.com/video/av47071667 看视频刷机比较麻烦，我把视频整理成</description>
+      <guid>http://localhost:1313/post/lg-v30%E9%9F%A9%E7%89%88-root%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
+      <description>#前言 2019年最火的洋垃圾LG V30，骁龙835cpu（从此告别发烧），4G内存，64G储存，能满足日用生活，能玩游戏，2k屏幕，hifi</description>
     </item>
     
     <item>
       <title>Nexus 5X手机在支付宝的蚂蚁森林自动收能量的过程.</title>
-      <link>https://www.flysnow.org/post/Nexus-5X%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</link>
+      <link>http://localhost:1313/post/nexus-5x%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/Nexus-5X%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</guid>
-      <description>下载刷机包 https://downloads.aospextended.com/bullhead 个人觉得aospextended的rom比较省电，其他刷机包或者不刷机也是可以的，只要是手机不能杀支付宝的后台就行，如果需要用都省电模式，要在省电模式里面排除支付宝。 下载twrp https://twrp.me/lg/lgnexus5x.html 下载magisk 下载MagiskManager-v7.4.0.apk 下载Magisk-v</description>
+      <guid>http://localhost:1313/post/nexus-5x%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</guid>
+      <description>下载刷机包 https://downloads.aospextended.com/bullhead 个人觉得aospextended的rom比较省电，其他刷机包或者不刷机也是可以的，只要是手机不能杀支付宝的后台就行，如果需要用都</description>
     </item>
     
     <item>
       <title>解决安卓手机卡顿 安装google商店官方软件的方法</title>
-      <link>https://www.flysnow.org/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://localhost:1313/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>下载play.google.com商店软件的方法 国内安卓软件多数都是比较流氓，内存占用大，弹广告，要想手机流畅运行，建议尽量使用google商店下载的软件。 下面提到的所以资源可以到蓝奏云网盘下载，无广告，速度飞快 https://www.lanzous.com/b059xemze 下载国际版安卓软件最简单的方法 下载setupvpn_4.6.2.a</description>
+      <guid>http://localhost:1313/post/%E8%A7%A3%E5%86%B3%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%8D%A1%E9%A1%BF-%E5%AE%89%E8%A3%85google%E5%95%86%E5%BA%97%E5%AE%98%E6%96%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>下载play.google.com商店软件的方法 国内安卓软件多数都是比较流氓，内存占用大，弹广告，要想手机流畅运行，建议尽量使用google</description>
     </item>
     
     <item>
       <title>黑苹果给安卓手机刷入twrp recovery教程</title>
-      <link>https://www.flysnow.org/post/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%BB%99%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5twrp-recovery%E6%95%99%E7%A8%8B/</link>
+      <link>http://localhost:1313/post/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%BB%99%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5twrp-recovery%E6%95%99%E7%A8%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.flysnow.org/post/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%BB%99%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5twrp-recovery%E6%95%99%E7%A8%8B/</guid>
-      <description>手机设置 点击设置，系统，关机手机，版本号联系点击三下，进入开发者模式，找到开发者选项，打开OME解锁，打开Android调试，打开网络ADB调试。 下载twrp 下面以lgnexus5x为例 https://twrp.me/lg/lgnexus5x.html 下载最新的 安装 ADB 和 Fastboot 工具 点击下载platform-tools https://dl.google.com/android/repository/platform-tools-latest-darwin.zip 解压后放在一个方便使用的位置，</description>
+      <guid>http://localhost:1313/post/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%BB%99%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5twrp-recovery%E6%95%99%E7%A8%8B/</guid>
+      <description>手机设置 点击设置，系统，关机手机，版本号联系点击三下，进入开发者模式，找到开发者选项，打开OME解锁，打开Android调试，打开网络ADB</description>
     </item>
     
   </channel>
