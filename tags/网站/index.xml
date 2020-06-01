@@ -6,17 +6,45 @@
     <description>Recent content in 网站 on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Sep 2019 13:01:23 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hugo搭建和使用教程</title>
-      <link>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
+      <title>hexo博客优化之文章置顶&#43;置顶标签</title>
+      <link>http://localhost:1313/hexozhiding.html</link>
+      <pubDate>Thu, 12 Sep 2019 13:01:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexozhiding.html</guid>
+      <description>支持置顶的仓库 可以直接用以下命令安装 1 2 $ npm uninstall hexo-generator-index --save $ npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。 设置置</description>
+    </item>
+    
+    <item>
+      <title>hexo安装后的使用教程</title>
+      <link>http://localhost:1313/hexoshiyong.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/hexoshiyong.html</guid>
+      <description>​ 安装主题（next） git clone https://github.com/theme-next/hexo-theme-next themes/next 下载主题解压后放到themes目录 编辑主目录的_config.yml 查找language 设置 language: zh-CN 搜索Schem</description>
+    </item>
+    
+    <item>
+      <title>hugo搭建和使用教程</title>
+      <link>http://localhost:1313/hugodajian.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugodajian.html</guid>
       <description>安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添</description>
+    </item>
+    
+    <item>
+      <title>k2p老毛子固件绑定域名之 cloudflare.com</title>
+      <link>http://localhost:1313/cloudflarebangding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/cloudflarebangding.html</guid>
+      <description>k2p老毛子固件绑定域名之 cloudflare.com 使用 Cloudflare 实现顶级个人域名的 ddns 服务。 https://www.cloudflare.com 使用前需要安装 curl 程序，可以安装opt后输入 opkg install curl 敲回车键安装启用opt 点击获取</description>
     </item>
     
   </channel>

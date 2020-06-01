@@ -6,9 +6,64 @@
     <description>Recent content in Posts on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Sep 2019 13:01:23 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hexo博客优化之文章置顶&#43;置顶标签</title>
+      <link>http://localhost:1313/hexozhiding.html</link>
+      <pubDate>Thu, 12 Sep 2019 13:01:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexozhiding.html</guid>
+      <description>支持置顶的仓库 可以直接用以下命令安装 1 2 $ npm uninstall hexo-generator-index --save $ npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。 设置置</description>
+    </item>
+    
+    <item>
+      <title>hexo博客备份迁移教程</title>
+      <link>http://localhost:1313/hexobeifen.html</link>
+      <pubDate>Wed, 11 Sep 2019 13:01:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexobeifen.html</guid>
+      <description>hexo备份 新建repository 在Github下创建一个新的repository，取名为myblog。(与本地的Hexo源码文件夹同名即</description>
+    </item>
+    
+    <item>
+      <title>chrome安装Tampermonkey，添加插件的过程</title>
+      <link>http://localhost:1313/chrometampermonkey.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/chrometampermonkey.html</guid>
+      <description>chrome安装Tampermonkey，添加插件的过程 安装谷歌访问助手 打开google搜索和https://play.google.com</description>
+    </item>
+    
+    <item>
+      <title>Github 绑定域名添加https的方法2019年9月更新</title>
+      <link>http://localhost:1313/githubyuming.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/githubyuming.html</guid>
+      <description>官方教程 https://help.github.com/en/articles/using-a-custom-domain-with-github-pages 打开 https://github.com/ 打开 https://github.com/waimao8/waimao8.github.io/settings 绑定域名：163168.xyz 打开你要绑定域名的项目，进入设置页面。并在 Github Pages - Custom domain 这一栏填上你的网址 163168.xyz 在source 目</description>
+    </item>
+    
+    <item>
+      <title>github搭建hexo博客和绑定域名的详细过程</title>
+      <link>http://localhost:1313/hexodajian.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexodajian.html</guid>
+      <description>1、https://github.com/ 先注册账号 比如我的是 waimao8 2、New repository waimao8.github.io 3、下载git https://git-scm.com/downloads 默认安装 安装好后，用git &amp;ndash;version 来查看一下版本 4、</description>
+    </item>
+    
+    <item>
+      <title>hexo安装后的使用教程</title>
+      <link>http://localhost:1313/hexoshiyong.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexoshiyong.html</guid>
+      <description>​ 安装主题（next） git clone https://github.com/theme-next/hexo-theme-next themes/next 下载主题解压后放到themes目录 编辑主目录的_config.yml 查找language 设置 language: zh-CN 搜索Schem</description>
+    </item>
     
     <item>
       <title>hugo搭建和使用教程</title>
@@ -17,6 +72,15 @@
       
       <guid>http://localhost:1313/hugodajian.html</guid>
       <description>安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添</description>
+    </item>
+    
+    <item>
+      <title>k2p老毛子固件绑定域名之 cloudflare.com</title>
+      <link>http://localhost:1313/cloudflarebangding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/cloudflarebangding.html</guid>
+      <description>k2p老毛子固件绑定域名之 cloudflare.com 使用 Cloudflare 实现顶级个人域名的 ddns 服务。 https://www.cloudflare.com 使用前需要安装 curl 程序，可以安装opt后输入 opkg install curl 敲回车键安装启用opt 点击获取</description>
     </item>
     
     <item>
@@ -30,20 +94,29 @@
     
     <item>
       <title>N1安装omv后安装docker&#43;transmission&#43;lnmp搭建网站</title>
-      <link>http://localhost:1313/post/n1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</link>
+      <link>http://localhost:1313/n1djwz.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/n1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</guid>
+      <guid>http://localhost:1313/n1djwz.html</guid>
       <description>N1安装好omv后， 进入系统，常规设置，修改web管理员密码，需要安装的lnmp搭建网站的话，还需要修改端口，自动登出时间可以设置为1天。 进</description>
     </item>
     
     <item>
       <title>Nexus 5X手机在支付宝的蚂蚁森林自动收能量的过程.</title>
-      <link>http://localhost:1313/post/nexus-5x%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</link>
+      <link>http://localhost:1313/nexus5x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/nexus-5x%E6%89%8B%E6%9C%BA%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%87%AA%E5%8A%A8%E6%94%B6%E8%83%BD%E9%87%8F%E7%9A%84%E8%BF%87%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/nexus5x.html</guid>
       <description>下载刷机包 https://downloads.aospextended.com/bullhead 个人觉得aospextended的rom比较省电，其他刷机包或者不刷机也是可以的，只要是手机不能杀支付宝的后台就行，如果需要用都</description>
+    </item>
+    
+    <item>
+      <title>关于微店购物的相关问题</title>
+      <link>http://localhost:1313/post/%E5%85%B3%E4%BA%8E%E5%BE%AE%E5%BA%97%E8%B4%AD%E7%89%A9%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%85%B3%E4%BA%8E%E5%BE%AE%E5%BA%97%E8%B4%AD%E7%89%A9%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</guid>
+      <description>关于微店回复慢 因实体批发比较繁忙，经常回复会比较慢，谢理解！大家可以先看下下面的相关解答哈！有不清楚的还可以咨询我们的哈！ 关于发货 默认中通，</description>
     </item>
     
     <item>
@@ -65,21 +138,48 @@
     </item>
     
     <item>
-      <title>支付宝通过三星健康修改步数的教程和注意事项</title>
-      <link>http://localhost:1313/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</link>
+      <title>戴尔笔记本E6430安装黑苹果的全部过程</title>
+      <link>http://localhost:1313/e6430heipingguo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%94%AF%E4%BB%98%E5%AE%9D%E9%80%9A%E8%BF%87%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E4%BF%AE%E6%94%B9%E6%AD%A5%E6%95%B0%E7%9A%84%E6%95%99%E7%A8%8B%E5%92%8C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</guid>
+      <guid>http://localhost:1313/e6430heipingguo.html</guid>
+      <description>寻找EFI文件 从黑苹果长期维护机型 EFI 及安装教程整理 https://www.jianshu.com/p/484f07b8c7fd 找到 https://github.com/kinoute/Hack-Dell-Latitude-E6430 下载EFI文件夹 下载系统 从黑果小兵下载macOS Mojave 10.14.6，自带Clover</description>
+    </item>
+    
+    <item>
+      <title>支付宝通过三星健康修改步数的教程和注意事项</title>
+      <link>http://localhost:1313/zhifubaobushu.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zhifubaobushu.html</guid>
       <description>支付宝通过三星健康修改步数的教程和注意事项 全部软件下载地址（担心以后新版的支付宝不能同步，所以在网盘也放了最近的三个支付宝，酷安下载的） https://www.lanzous.com/b059xem4d 安</description>
     </item>
     
     <item>
-      <title>斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</title>
-      <link>http://localhost:1313/post/%E6%96%90%E8%AE%AFn1%E5%AE%89armbian%E5%AE%89%E8%A3%85omv%E5%AE%89%E8%A3%85nginx&#43;mysql%E5%AE%89%E8%A3%85typecho%E5%85%A8%E8%BF%87%E7%A8%8B/</link>
+      <title>斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座</title>
+      <link>http://localhost:1313/n1homeassistant.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%96%90%E8%AE%AFn1%E5%AE%89armbian%E5%AE%89%E8%A3%85omv%E5%AE%89%E8%A3%85nginx&#43;mysql%E5%AE%89%E8%A3%85typecho%E5%85%A8%E8%BF%87%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/n1homeassistant.html</guid>
+      <description>斐讯N1 docker安装homeassistant 配置斐讯dc1智能插座 默认代码 1 2 docker run -d --restart=always --name=&amp;#34;home-assistant&amp;#34; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config -p 8123:8123 -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/aarch64-homeassistant:latest homeassistant</description>
+    </item>
+    
+    <item>
+      <title>斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</title>
+      <link>http://localhost:1313/n1omv.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/n1omv.html</guid>
       <description>安装armbian 测试了很多版本的Armbian+omv，OMV经常会报错，改用了XQ7的N1首个支持FullCone Nat的Armbian</description>
+    </item>
+    
+    <item>
+      <title>百度网盘不限速下载的一些方法</title>
+      <link>http://localhost:1313/baiduwangpan.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/baiduwangpan.html</guid>
+      <description>ENFI 下载地址 http://www.enfi.cloud/ 需要搭配enfi下载助手 用P2P下载技术，支持HTTP，BT，磁力链等各种协议，高速下载让你摆脱限速的困扰，从此告别低速 这个可以</description>
     </item>
     
     <item>

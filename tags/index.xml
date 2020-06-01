@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Sep 2019 13:01:23 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hexo</title>
+      <link>http://localhost:1313/tags/hexo/</link>
+      <pubDate>Thu, 12 Sep 2019 13:01:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>网站</title>
+      <link>http://localhost:1313/tags/%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Thu, 12 Sep 2019 13:01:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E7%BD%91%E7%AB%99/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hexo备份还原</title>
+      <link>http://localhost:1313/tags/hexo%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</link>
+      <pubDate>Wed, 11 Sep 2019 13:01:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/hexo%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9F/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>APK Downloader</title>
@@ -25,6 +53,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/cheome%E6%8F%92%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chrome</title>
+      <link>http://localhost:1313/tags/chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloudflare</title>
+      <link>http://localhost:1313/tags/cloudflare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cloudflare/</guid>
       <description></description>
     </item>
     
@@ -56,11 +102,11 @@
     </item>
     
     <item>
-      <title>hexo</title>
-      <link>http://localhost:1313/tags/hexo/</link>
+      <title>homeassistant</title>
+      <link>http://localhost:1313/tags/homeassistant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/hexo/</guid>
+      <guid>http://localhost:1313/tags/homeassistant/</guid>
       <description></description>
     </item>
     
@@ -74,11 +120,29 @@
     </item>
     
     <item>
+      <title>it软件</title>
+      <link>http://localhost:1313/tags/it%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/it%E8%BD%AF%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jsdelivr</title>
       <link>http://localhost:1313/tags/jsdelivr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/jsdelivr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k2p</title>
+      <link>http://localhost:1313/tags/k2p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/k2p/</guid>
       <description></description>
     </item>
     
@@ -191,6 +255,15 @@
     </item>
     
     <item>
+      <title>Tampermonkey</title>
+      <link>http://localhost:1313/tags/tampermonkey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/tampermonkey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>twrp</title>
       <link>http://localhost:1313/tags/twrp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -245,6 +318,24 @@
     </item>
     
     <item>
+      <title>博客</title>
+      <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>域名</title>
+      <link>http://localhost:1313/tags/%E5%9F%9F%E5%90%8D/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%9F%9F%E5%90%8D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>安卓手机</title>
       <link>http://localhost:1313/tags/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -263,11 +354,38 @@
     </item>
     
     <item>
+      <title>微店</title>
+      <link>http://localhost:1313/tags/%E5%BE%AE%E5%BA%97/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%BE%AE%E5%BA%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>戴尔E6430</title>
+      <link>http://localhost:1313/tags/%E6%88%B4%E5%B0%94e6430/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E6%88%B4%E5%B0%94e6430/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>支付宝运动</title>
       <link>http://localhost:1313/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E8%BF%90%E5%8A%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>斐讯DC1</title>
+      <link>http://localhost:1313/tags/%E6%96%90%E8%AE%AFdc1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E6%96%90%E8%AE%AFdc1/</guid>
       <description></description>
     </item>
     
@@ -295,6 +413,33 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>百度网盘下载</title>
+      <link>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>百度网盘下载不限速</title>
+      <link>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD%E4%B8%8D%E9%99%90%E9%80%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD%E4%B8%8D%E9%99%90%E9%80%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>路由</title>
+      <link>http://localhost:1313/tags/%E8%B7%AF%E7%94%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E8%B7%AF%E7%94%B1/</guid>
       <description></description>
     </item>
     

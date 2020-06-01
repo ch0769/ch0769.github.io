@@ -12,19 +12,28 @@
     
     <item>
       <title>N1安装omv后安装docker&#43;transmission&#43;lnmp搭建网站</title>
-      <link>http://localhost:1313/post/n1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</link>
+      <link>http://localhost:1313/n1djwz.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/n1%E5%AE%89%E8%A3%85omv%E5%90%8E%E5%AE%89%E8%A3%85docker&#43;transmission&#43;lnmp%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99-/</guid>
+      <guid>http://localhost:1313/n1djwz.html</guid>
       <description>N1安装好omv后， 进入系统，常规设置，修改web管理员密码，需要安装的lnmp搭建网站的话，还需要修改端口，自动登出时间可以设置为1天。 进</description>
     </item>
     
     <item>
-      <title>斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</title>
-      <link>http://localhost:1313/post/%E6%96%90%E8%AE%AFn1%E5%AE%89armbian%E5%AE%89%E8%A3%85omv%E5%AE%89%E8%A3%85nginx&#43;mysql%E5%AE%89%E8%A3%85typecho%E5%85%A8%E8%BF%87%E7%A8%8B/</link>
+      <title>斐讯N1 docker安装homeassistant  配置斐讯dc1智能插座</title>
+      <link>http://localhost:1313/n1homeassistant.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%96%90%E8%AE%AFn1%E5%AE%89armbian%E5%AE%89%E8%A3%85omv%E5%AE%89%E8%A3%85nginx&#43;mysql%E5%AE%89%E8%A3%85typecho%E5%85%A8%E8%BF%87%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/n1homeassistant.html</guid>
+      <description>斐讯N1 docker安装homeassistant 配置斐讯dc1智能插座 默认代码 1 2 docker run -d --restart=always --name=&amp;#34;home-assistant&amp;#34; -e TZ=Asia/Shanghai -v /var/lib/docker/homeassistant:/config -p 8123:8123 -v /etc/localtime:/etc/localtime:ro --net=host homeassistant/aarch64-homeassistant:latest homeassistant</description>
+    </item>
+    
+    <item>
+      <title>斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</title>
+      <link>http://localhost:1313/n1omv.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/n1omv.html</guid>
       <description>安装armbian 测试了很多版本的Armbian+omv，OMV经常会报错，改用了XQ7的N1首个支持FullCone Nat的Armbian</description>
     </item>
     

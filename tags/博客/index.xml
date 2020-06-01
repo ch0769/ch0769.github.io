@@ -11,12 +11,21 @@
     
     
     <item>
-      <title>hugo搭建和使用教程</title>
-      <link>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
+      <title>github搭建hexo博客和绑定域名的详细过程</title>
+      <link>http://localhost:1313/hexodajian.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
-      <description>安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添</description>
+      <guid>http://localhost:1313/hexodajian.html</guid>
+      <description>1、https://github.com/ 先注册账号 比如我的是 waimao8 2、New repository waimao8.github.io 3、下载git https://git-scm.com/downloads 默认安装 安装好后，用git &amp;ndash;version 来查看一下版本 4、</description>
+    </item>
+    
+    <item>
+      <title>hexo安装后的使用教程</title>
+      <link>http://localhost:1313/hexoshiyong.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hexoshiyong.html</guid>
+      <description>​ 安装主题（next） git clone https://github.com/theme-next/hexo-theme-next themes/next 下载主题解压后放到themes目录 编辑主目录的_config.yml 查找language 设置 language: zh-CN 搜索Schem</description>
     </item>
     
   </channel>

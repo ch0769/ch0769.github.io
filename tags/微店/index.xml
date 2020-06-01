@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>微店 on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/%E5%BE%AE%E5%BA%97/</link>
+    <description>Recent content in 微店 on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    
+	<atom:link href="http://localhost:1313/tags/%E5%BE%AE%E5%BA%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于微店购物的相关问题</title>
+      <link>http://localhost:1313/post/%E5%85%B3%E4%BA%8E%E5%BE%AE%E5%BA%97%E8%B4%AD%E7%89%A9%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%85%B3%E4%BA%8E%E5%BE%AE%E5%BA%97%E8%B4%AD%E7%89%A9%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</guid>
+      <description>关于微店回复慢 因实体批发比较繁忙，经常回复会比较慢，谢理解！大家可以先看下下面的相关解答哈！有不清楚的还可以咨询我们的哈！ 关于发货 默认中通，</description>
+    </item>
+    
+  </channel>
+</rss>
