@@ -99,7 +99,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://localhost:1313/hugodajian.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -129,7 +129,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/lg-v30%E9%9F%A9%E7%89%88-root%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://localhost:1313/lgv30root.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
