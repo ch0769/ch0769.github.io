@@ -13,10 +13,10 @@
     
     <item>
       <title>hugo搭建和使用教程</title>
-      <link>http://localhost:1313/hugodajian.html</link>
+      <link>http://localhost:1313/posts/22.html</link>
       <pubDate>Mon, 01 Jun 2020 15:55:32 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugodajian.html</guid>
+      <guid>http://localhost:1313/posts/22.html</guid>
       <description>安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添</description>
     </item>
     
@@ -31,19 +31,19 @@
     
     <item>
       <title>hexo博客优化之文章置顶&#43;置顶标签</title>
-      <link>http://localhost:1313/hexozhiding.html</link>
+      <link>http://localhost:1313/posts/4.html</link>
       <pubDate>Thu, 12 Sep 2019 13:01:23 +0000</pubDate>
       
-      <guid>http://localhost:1313/hexozhiding.html</guid>
+      <guid>http://localhost:1313/posts/4.html</guid>
       <description>支持置顶的仓库 可以直接用以下命令安装 1 2 $ npm uninstall hexo-generator-index --save $ npm install hexo-generator-index-pin-top --save 然后在需要置顶的文章的Front-matter中加上top: true即可。 设置置</description>
     </item>
     
     <item>
       <title>hexo安装后的使用教程</title>
-      <link>http://localhost:1313/hexoshiyong.html</link>
+      <link>http://localhost:1313/posts/1.html</link>
       <pubDate>Mon, 09 Sep 2019 14:37:42 +0000</pubDate>
       
-      <guid>http://localhost:1313/hexoshiyong.html</guid>
+      <guid>http://localhost:1313/posts/1.html</guid>
       <description>​ 安装主题（next） git clone https://github.com/theme-next/hexo-theme-next themes/next 下载主题解压后放到themes目录 编辑主目录的_config.yml 查找language 设置 language: zh-CN 搜索Schem</description>
     </item>
     

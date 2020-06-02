@@ -13,10 +13,10 @@
     
     <item>
       <title>hexo博客备份迁移教程</title>
-      <link>http://localhost:1313/hexobeifen.html</link>
+      <link>http://localhost:1313/posts/3.html</link>
       <pubDate>Wed, 11 Sep 2019 13:01:13 +0000</pubDate>
       
-      <guid>http://localhost:1313/hexobeifen.html</guid>
+      <guid>http://localhost:1313/posts/3.html</guid>
       <description>hexo备份 新建repository 在Github下创建一个新的repository，取名为myblog。(与本地的Hexo源码文件夹同名即</description>
     </item>
     
