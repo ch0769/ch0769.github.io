@@ -6,10 +6,55 @@
     <description>Recent content in Tags on 东莞外贸</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Jun 2020 15:55:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 15:55:32 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Tue, 02 Jun 2020 15:55:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home Assistant</title>
+      <link>http://localhost:1313/tags/home-assistant/</link>
+      <pubDate>Tue, 02 Jun 2020 15:55:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/home-assistant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N1</title>
+      <link>http://localhost:1313/tags/n1/</link>
+      <pubDate>Tue, 02 Jun 2020 15:55:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/n1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openwrt</title>
+      <link>http://localhost:1313/tags/openwrt/</link>
+      <pubDate>Tue, 02 Jun 2020 15:55:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>宝塔</title>
+      <link>http://localhost:1313/tags/%E5%AE%9D%E5%A1%94/</link>
+      <pubDate>Tue, 02 Jun 2020 15:55:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E5%AE%9D%E5%A1%94/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Github</title>
@@ -314,15 +359,6 @@
       <pubDate>Sun, 08 Dec 2019 19:21:42 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/%E6%88%B4%E5%B0%94e6430/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
-      <pubDate>Sun, 08 Dec 2019 18:31:42 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     
