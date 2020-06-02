@@ -6,6 +6,7 @@
     <description>Recent content in Tampermonkey on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Sep 2019 13:01:13 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/tampermonkey/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>chrome安装Tampermonkey，添加插件的过程</title>
       <link>http://localhost:1313/chrometampermonkey.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Sep 2019 13:01:13 +0000</pubDate>
       
       <guid>http://localhost:1313/chrometampermonkey.html</guid>
       <description>chrome安装Tampermonkey，添加插件的过程 安装谷歌访问助手 打开google搜索和https://play.google.com</description>

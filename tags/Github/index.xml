@@ -6,23 +6,15 @@
     <description>Recent content in Github on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 Jun 2020 15:55:32 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Github 绑定域名添加https的方法2019年9月更新</title>
-      <link>http://localhost:1313/githubyuming.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/githubyuming.html</guid>
-      <description>官方教程 https://help.github.com/en/articles/using-a-custom-domain-with-github-pages 打开 https://github.com/ 打开 https://github.com/waimao8/waimao8.github.io/settings 绑定域名：163168.xyz 打开你要绑定域名的项目，进入设置页面。并在 Github Pages - Custom domain 这一栏填上你的网址 163168.xyz 在source 目</description>
-    </item>
-    
-    <item>
       <title>hugo搭建和使用教程</title>
       <link>http://localhost:1313/hugodajian.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2020 15:55:32 +0000</pubDate>
       
       <guid>http://localhost:1313/hugodajian.html</guid>
       <description>安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添</description>
@@ -31,10 +23,19 @@
     <item>
       <title>图床搭建的最佳选择 PicGo &#43; Github &#43; Jsdelivr免费公用CDN加速.</title>
       <link>http://localhost:1313/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-picgo-&#43;-github-&#43;-jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8cdn%E5%8A%A0%E9%80%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Dec 2019 12:33:32 +0000</pubDate>
       
       <guid>http://localhost:1313/post/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E9%80%89%E6%8B%A9-picgo-&#43;-github-&#43;-jsdelivr%E5%85%8D%E8%B4%B9%E5%85%AC%E7%94%A8cdn%E5%8A%A0%E9%80%9F/</guid>
       <description>图床搭建的最佳选择 PicGo + Github + Jsdelivr免费公用CDN加速 Github创建仓库 点击 New repository 创建好后，获取Token 这个Token只出现一次的，</description>
+    </item>
+    
+    <item>
+      <title>Github 绑定域名添加https的方法2019年9月更新</title>
+      <link>http://localhost:1313/githubyuming.html</link>
+      <pubDate>Sat, 14 Sep 2019 15:40:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/githubyuming.html</guid>
+      <description>官方教程 https://help.github.com/en/articles/using-a-custom-domain-with-github-pages 打开 https://github.com/ 打开 https://github.com/waimao8/waimao8.github.io/settings 绑定域名：163168.xyz 打开你要绑定域名的项目，进入设置页面。并在 Github Pages - Custom domain 这一栏填上你的网址 163168.xyz 在source 目</description>
     </item>
     
   </channel>

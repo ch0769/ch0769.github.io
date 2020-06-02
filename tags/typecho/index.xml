@@ -6,6 +6,7 @@
     <description>Recent content in typecho on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 Dec 2019 18:28:42 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/typecho/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>斐讯N1安Armbian安装OMV安装nginx&#43;mysql安装typecho全过程</title>
       <link>http://localhost:1313/n1omv.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2019 18:28:42 +0000</pubDate>
       
       <guid>http://localhost:1313/n1omv.html</guid>
       <description>安装armbian 测试了很多版本的Armbian+omv，OMV经常会报错，改用了XQ7的N1首个支持FullCone Nat的Armbian</description>

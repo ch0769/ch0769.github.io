@@ -6,6 +6,7 @@
     <description>Recent content in hugo on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 Jun 2020 15:55:32 +0000</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>hugo搭建和使用教程</title>
       <link>http://localhost:1313/hugodajian.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2020 15:55:32 +0000</pubDate>
       
       <guid>http://localhost:1313/hugodajian.html</guid>
       <description>安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添</description>
