@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>hugo搭建和使用教程 - Even - A super concise theme for Hugo</title>
+  <title>hugo搭建和使用教程 - 东莞外贸</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -49,7 +49,7 @@
 <meta itemprop="description" content="安装hugo 下载hugo https://gohugo.io 解压到任意目录，比如D:\hugo\bin 将Hugo添加到Windows的环境变量 PATH中 系统变量和用户变量都添">
 <meta itemprop="datePublished" content="2020-06-01T15:55:32&#43;00:00" />
 <meta itemprop="dateModified" content="2020-06-01T15:55:32&#43;00:00" />
-<meta itemprop="wordCount" content="785">
+<meta itemprop="wordCount" content="956">
 
 
 
@@ -131,7 +131,7 @@
             <a href="/categories/%E7%BD%91%E7%AB%99/"> 网站 </a>
             <a href="/categories/github/"> github </a>
             </div>
-          <span class="more-meta"> 约 785 字 </span>
+          <span class="more-meta"> 约 956 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
         
       </div>
@@ -148,6 +148,7 @@
     <li><a href="#快速在netlify建立jekyllhexohugo静态博客">快速在Netlify建立Jekyll、Hexo、Hugo静态博客</a></li>
     <li><a href="#写文章日期格式">写文章日期格式</a></li>
     <li><a href="#从hexo导入文章到hugo的固定链接设置">从hexo导入文章到hugo的固定链接设置</a></li>
+    <li><a href="#绑定域名">绑定域名</a></li>
   </ul>
 </nav>
   </div>
@@ -187,13 +188,14 @@ hugo server<br>
 <h1 id="新建文章">新建文章</h1>
 <p>hugo new post\hugo搭建和使用教程.md<br>
 会在D:\blog\content\post  hugo搭建和使用教程.md<br>
-可以下载Visual Studio Code编辑和修改文章，记得换行前要先打两个空格，再按回车键</p>
+可以下载Visual Studio Code编辑和修改文章，记得换行前要先打两个空格，再按回车键。</p>
 <h1 id="hugo使用教程">hugo使用教程</h1>
 <h2 id="添加固定链接">添加固定链接</h2>
 <p>这篇教程的加法参考如下<br>
 title: hugo搭建和使用教程<br>
 date: 2020-06-01 15:55:32<br>
-url: /hugodajian.html</p>
+url: /hugodajian.html<br>
+（hugodajian 可以改成数字或者任意字母）</p>
 <h2 id="写文章后部署">写文章后部署</h2>
 <p>在blog目录输入hugo<br>
 在blog/public目录依次输入<br>
@@ -217,6 +219,17 @@ abbrlink: 1<br>
 url: /posts/1.html<br>
 域名从hexo解析到hugo后，固定链接是不变的<br>
 也可以不用阿拉伯数字，随便输入其他字母也是可以的，这个看个人喜欢了。</p>
+<h2 id="绑定域名">绑定域名</h2>
+<p>绑域名非常简单，大家可以翻我前面的教程。<br>
+这里发现一个问题<br>
+绑定域名后<br>
+输入  git push -u origin master  出现错误如下<br>
+git上传文件出错[rejected] master -&gt; master (fetch first) error: failed to push some refs to<br>
+这个是因为github中的README.md文件不在本地代码目录中，可以通过如下命令进行代码合并<br>
+git pull &ndash;rebase origin master<br>
+再输入<br>
+git push origin master<br>
+就可以了。</p>
 
     </div>
 
