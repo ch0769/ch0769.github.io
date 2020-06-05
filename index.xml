@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>About</title>
+      <title>买外贸货</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+      <description>关于微店回复慢 因实体批发比较繁忙，经常回复会比较慢，谢理解！大家可以先看下下面的相关解答哈！有不清楚的还可以咨询我们的哈！ 关于发货 默认中通，</description>
     </item>
     
     <item>
@@ -47,6 +45,15 @@ It makes use of a variety of open source projects including:
       
       <guid>http://localhost:1313/posts/20.html</guid>
       <description>k2p老毛子固件绑定域名之 cloudflare.com 使用 Cloudflare 实现顶级个人域名的 ddns 服务。 https://www.cloudflare.com 使用前需要安装 curl 程序，可以安装opt后输入 opkg install curl 敲回车键安装启用opt 点击获取</description>
+    </item>
+    
+    <item>
+      <title>关于微店购物的相关问题</title>
+      <link>http://localhost:1313/posts/19.html</link>
+      <pubDate>Fri, 27 Dec 2019 13:10:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/19.html</guid>
+      <description>关于微店回复慢 因实体批发比较繁忙，经常回复会比较慢，谢理解！大家可以先看下下面的相关解答哈！有不清楚的还可以咨询我们的哈！ 关于发货 默认中通，</description>
     </item>
     
     <item>
